@@ -1,20 +1,66 @@
-body{
-    background-color: #ff9933;
+.container{
+    margin: 25px auto 25px auto;
+    border-radius: 1%;
+    background-color: rgb(212, 205, 205);
 }
-.Introduction{
+.imgdiv{
+    display: block;
+    padding-top: 10px;
+    margin: 15px 15px 15px 15px;
+    background-color: aliceblue;
     text-align: center;
+    font-family: 'PT Sans', sans-serif;
 }
-div{
+#top{
     text-align: center;
+    padding: 10px 10px;
+    font-family: 'Oswald', sans-serif;
+}
+#toprel{
+    text-align: center;
+    margin-top: -25px;
+    font-family: PT Sans', sans-serif';
+    font-size: 1.1em;
+}
+#img{
+    max-width: 100%;
+    display: block;
+    height: auto;
 }
 .timeline{
-    background-color: transparent;
-    margin-left: 600px;
-    border-radius: 1%;
+    padding-left: 700px;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 summary,p{
     text-align: center;
+    font-size: 1.15em;
+    font-style: italic;
 }
 footer{
     text-align: center;
+    font-weight: bold;  
+    font-size: 1.2em;
+}
+@media (max-width: 1920px) {
+    [id="img"]{
+    padding-left: 450px;   }
+}
+@media (max-width: 1820px){
+    [id="img"]{
+        transform: scale(0.95);
+        padding-left: 150px;
+    }
+    [class="timeline"]{
+        padding-left: 350px;
+    }
+}
+@media (max-width: 1024px){
+    [id="img"]{
+        transform: scale(0.95);
+        padding-left: 5px;
+        padding-right: 6px;
+    }
+    [class="timeline"]{
+        padding-left: 30px;
+    }
 }
