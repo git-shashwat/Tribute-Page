@@ -5,4 +5,4 @@ FreeCodeCamp.org project
 
 First Responsive Website.
 
-check out here: https://git-shashwat.github.io/Tribute-Page/
+Check out here: https://git-shashwat.github.io/Tribute-Page/
